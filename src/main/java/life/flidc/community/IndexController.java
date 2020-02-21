@@ -1,4 +1,4 @@
-package life.flidc.community.community;
+package life.flidc.community;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @Version:1.0
  */
 @Controller
-public class HelloController {
+public class IndexController {
 
     @GetMapping("/")
     public String index(){
